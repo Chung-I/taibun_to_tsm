@@ -84,6 +84,7 @@ local test_data = "data/test.txt";
     },
     "trainer": {
         "num_epochs": 100,
+        "validation_metric": "+accuracy",
         "optimizer": {
             "type": "adamw",
             "lr": 1e-3,
