@@ -6,8 +6,6 @@ from collections import Counter
 from functools import partial
 import logging
 import json
-import unicodedata
-from POJ_TL import poj_tl
 import zhon.hanzi
 
 arabic_chinese_mapping = {
